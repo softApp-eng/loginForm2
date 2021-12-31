@@ -1,0 +1,59 @@
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-image: linear-gradient(to top, #4caaaa 50%, #edbe32 50%);
+}
+.container {
+}
+
+/* titleStyle  */
+.titleStyle {
+  background-color: #4caaaa;
+}
+
+/* form */
+input[type="email"],
+input[type="password"] {
+  outline: none;
+}
+input[type="email"]:hover,
+input[type="password"]:hover {
+  border-color: #edbe32;
+  outline: none;
+}
+.formBtn {
+  background-color: #fff;
+  color: #4caaaa;
+  font-weight: bold;
+  border-color: #4caaaa;
+}
+.formBtn:hover {
+  background-color: #4caaaa;
+  color: #fff;
+  font-weight: bold;
+  border-color: #fff;
+}
+/* icons */
+.icons {
+  margin: 0;
+  padding: 0;
+}
+.iconContains {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.icon {
+}
+a .icon:nth-child(1) {
+}
+a .icon:nth-child(2) {
+  color: #0e76a8;
+}
+.icon:nth-child(3) {
+  color: #fccc63;
+}
+.icon:nth-child(4) {
+  color: #00acee;
+}
